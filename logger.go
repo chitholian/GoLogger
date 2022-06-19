@@ -297,6 +297,6 @@ func Printf(level Level, format string, v ...any) {
 // Println writes a log entry to the output using default instance. Behaves like fmt.Println standard function.
 // It returns immediately (writing nothing) if current log level is smaller than the passed Level.
 // But if the passed Level is LevelFatal, then os.Exit will be called before return.
-func Println(level Level, format string, v ...any) {
-	std.Printf(level, format, v...)
+func Println(level Level, v ...any) {
+	std.Println(level, v...)
 }
