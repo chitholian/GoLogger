@@ -6,6 +6,10 @@ Providing an interface to leveled logging system and a basic implementation in `
 
 - `GO v1.18+`
 
+## Installation
+
+`go get -u github.com/chitholian/GoLogger`
+
 ## Usage Examples
 
 - You can use your own implementation of the `ILogger` interface.
